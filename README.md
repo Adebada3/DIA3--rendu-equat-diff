@@ -9,13 +9,13 @@ from sklearn.metrics import mean_squared_error
 # Partie 1: Modélisation et compréhension mathématique du problème
 
 # 1. Écrire l’équation différentielle avec les valeurs du problème.
-# dP/dt = r * P * (1 - P/K)
+ dP/dt = r * P * (1 - P/K)
 # où:
 # P = population (nombre de clients) au temps t
 # r = taux de croissance
 # K = capacité maximale (taille du marché total)
 # Avec les valeurs fournies:
-# dP/dt = 0.05 * P * (1 - P/100000)
+ dP/dt = 0.05 * P * (1 - P/100000)
 
 # 2. Expliquer pourquoi l’interprétation fonctionne au début de l’activité et à la fin de l’activité.
 # Début: Au début, P est petit, donc P/K est proche de 0. L'équation se rapproche de dP/dt = r * P, ce qui est une croissance exponentielle.
